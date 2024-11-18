@@ -58,3 +58,25 @@ The dataset is available on IEEE DataPort: [EEG data for ADHD/Control children](
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/your-username/ADHD-EEG-Detection.git
+
+
+
+## Results
+
+### Confusion Matrix
+The classification performance on the test dataset is summarized in the confusion matrix below:
+
+### Metrics
+- **Accuracy**: `99.1%`
+
+
+### Description
+The confusion matrix shows:
+- **Normal Class**:
+  - Correctly classified: `994`
+  - Misclassified as ADHD: `9`
+- **ADHD Class**:
+  - Correctly classified: `1009`
+  - Misclassified as Normal: `9`
+
+This demonstrates high classification performance with balanced sensitivity and specificity.
