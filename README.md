@@ -59,7 +59,7 @@ The dataset is available on IEEE DataPort: [EEG data for ADHD/Control children](
 ```bash
 git clone https://github.com/your-username/ADHD-EEG-Detection.git
 
-
+```
 
 ## Results
 
